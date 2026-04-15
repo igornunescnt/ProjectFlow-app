@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* HERO */}
       <section className="flex flex-col items-center justify-center text-center flex-1 px-6">
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-white mb-10 p-5">
           Organize seus projetos com clareza e controle
         </h2>
 

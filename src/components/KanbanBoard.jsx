@@ -70,7 +70,7 @@ export default function KanbanBoard() {
         collisionDetection={closestCenter}
         onDragEnd={handleDragEnd}
       >
-        <div className="flex overflow-x-auto gap-4 pb-4 flex-1">
+        <div className="flex flex-col w-[90%] m-auto md:flex-row gap-4">
           {columns.map((col) => {
             const columnTasks = tasks.filter(
               (t) => t.status === col.id

@@ -14,12 +14,9 @@ export default function ProjectDetails() {
     <div className="flex flex-col h-full">
       {/* HEADER */}
       <div className="mb-4">
-        <h1 className="text-2xl md:text-3xl font-bold">
-          {project.name}
-        </h1>
-        <p className="text-gray-400 text-sm">
-          Gerencie suas tarefas
-        </p>
+        <h1 className="text-xl md:text-2xl font-bold mt-2">Projeto Drying</h1>
+
+        <p className="text-sm text-gray-500 mb-4">Gerencie suas tarefas</p>
       </div>
 
       <KanbanBoard />
